@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozhikode Travel Guide</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(to right, #f9f9f9, #f1f5ff);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #003566;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 2.5em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+        .place {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .place:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .place img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .place:hover img {
+            transform: scale(1.05);
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #003566;
+            margin-top: 0;
+        }
+        .content p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>Discover Kozhikode</header>
+    <section>
+        <div class="place">
+            <img src="https://www.dtpckozhikode.com/uploads/picture_gallery/gallery_images/kozhikode-beach-2-20230509170339267388.webp" alt="Kozhikode Beach">
+            <div class="content">
+                <h2>Kozhikode Beach</h2>
+                <p>Enjoy stunning sunsets and delicious street food at the iconic Kozhikode Beach.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcoioGJXlF5i-x1frLx3dtC7FUl26yjY68kA&s" alt="Beypore">
+            <div class="content">
+                <h2>Beypore</h2>
+                <p>Known for its centuries-old shipbuilding industry and scenic views of the Arabian Sea.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://www.trawell.in/admin/images/upload/148645200Mananchira_main.jpg" alt="Mananchira Square">
+            <div class="content">
+                <h2>Mananchira Square</h2>
+                <p>A beautiful urban park perfect for cultural events and evening walks.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://static.toiimg.com/photo/48539383.cms" alt="Kappad Beach">
+            <div class="content">
+                <h2>Kappad Beach</h2>
+                <p>Historic beach where Vasco da Gama landed in 1498, offering serene beauty and heritage.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkBg4Jqisdr_9oB0QJ1ZlKIibLXd5fQdu9KA&s" alt="Thusharagiri Waterfalls">
+            <div class="content">
+                <h2>Thusharagiri Waterfalls</h2>
+                <p>A mesmerizing waterfall with adventurous trekking trails, ideal for nature lovers.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
